@@ -1,3 +1,22 @@
+body{
+    font-family: Poppins;
+    line-height: 1.8;
+}
+
+h1{
+    font-weight: 800;
+}
+
+p{
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.4sec ease;
+    font-weight: 400;
+}
+
 /* Header Navbar */
 .navbar-brand{
     font-size: 1.7rem;
@@ -8,10 +27,39 @@
 
 .nav-link{
     font-family: Poppins;
-    color: rgb(0, 0, 0);
+    color: rgb(58, 58, 58);
     font-weight: 600;
 }
 
-.slider-item{
+.navbar{
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(82, 171, 255, 0.7), rgba(15, 105, 240, 0.7));
+    z-index: -1;
+}
+
+.bg-cover{
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section{
+
 }
