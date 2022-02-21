@@ -1,0 +1,17 @@
+/* Header Navbar */
+.navbar-brand{
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: Poppins;
+    color: rgba(173, 7, 7, 0.795);
+}
+
+.nav-link{
+    font-family: Poppins;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.slider-item{
+    background-position: center;
+}
