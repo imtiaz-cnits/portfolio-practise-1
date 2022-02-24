@@ -267,7 +267,7 @@ footer .subs-input{
 }
 
 .top-head{
-    font-size: 60px;
+    font-size: 70px;
 }
 
 
@@ -281,12 +281,12 @@ footer .subs-input{
 
 .breadcrumb .breadcrumb-item a{
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .breadcrumb .breadcrumb-item {
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .card{
@@ -307,6 +307,12 @@ footer .subs-input{
 .card-body {
     border: 1px, #0026ff;
     box-shadow: 2px #212521;
+    padding: 0;
+}
+
+.card-body .container{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .btn-read{
@@ -315,7 +321,7 @@ footer .subs-input{
     border-radius: 5px;
     font-weight: 600;
     color: #fff;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 25px 10px 25px;
     align-items: center;
 }
 
@@ -334,4 +340,27 @@ h2{
 
 .breadcrumb-head{
     align-items: center;
+}
+
+.blog-single-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.media img{
+    width: 80px;
+    height: 78px;
+}
+
+.media-body{
+    padding-left: 15px;
+}
+
+.media-body .media-heading{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.popular-post-categories{
+    margin-top: -10px;
 }
