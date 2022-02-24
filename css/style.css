@@ -364,3 +364,10 @@ h2{
 .popular-post-categories{
     margin-top: -10px;
 }
+
+.truncate-line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+  }
