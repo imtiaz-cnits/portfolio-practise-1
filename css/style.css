@@ -7,6 +7,14 @@ h1{
     font-weight: 800;
 }
 
+h3{
+    font-weight: 700;
+}
+
+h4{
+    font-weight: 700;
+}
+
 p{
     font-weight: 400;
 }
@@ -14,7 +22,13 @@ p{
 a{
     text-decoration: none;
     transition: all 0.4sec ease;
-    font-weight: 400;
+    font-weight: 600;
+    color: #212521;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
 }
 
 /* Header Navbar */
@@ -35,8 +49,26 @@ a{
     box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .show> .nav-link {
+    background: -webkit-linear-gradient(#17cff0, #0066ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-h1{
+    font-size: 4rem;
+    padding-bottom: 10px;
+    padding-top: 140px;
+}
+
+.slider-meta{
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-bottom: 10px;
+}
+
 section{
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 80px;
     background-size: cover;
     position: relative;
@@ -50,7 +82,7 @@ section{
     width: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(82, 171, 255, 0.7), rgba(15, 105, 240, 0.7));
+    background: linear-gradient(rgba(15, 105, 240, 0.712), rgba(112, 186, 255, 0.747));
     z-index: -1;
 }
 
@@ -58,8 +90,248 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero-section{
+    height: 95vh;
+}
 
+.btn{
+    padding: 15px 24px;
+    transition: all 0.4s ease;
+}
+
+.btn-main{
+    background: linear-gradient(to right,#36d1ec, #0066ff);
+    border: none;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn:hover{
+    color: #fff;
+    transform: translateY(-4px);
+}
+
+.btn-video {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right,#36d1ec, #0066ff);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.section-intro{
+    font-family: poppins;
+}
+
+.section-intro .divider{
+    height: 4px;
+    width: 90px;
+    background: linear-gradient(to right,#36d1ec, #0066ff);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.service .service-img{
+    position: relative;
+}
+
+.service .service-img .icon{
+    height: 80px;
+    width: 80px;
+    background: linear-gradient(to right,#36d1ec, #0066ff);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service .service-img .icon i{
+    font-size: 32px;
+}
+
+.feature i{
+    background: -webkit-linear-gradient(#36c8ec, #1900ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 56px;
+  font-weight: 550;
+
+}
+
+.review {
+    box-shadow: 0 12px 12px rgba(0,0,0,0.1);
+}
+
+.review .person{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+    padding-bottom: 20px;
+}
+
+.review .person img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+
+.review .star{
+    color: orange;
+}
+
+.img-blog-3{
+    height: 278px;
+}
+
+form .form-control{
+    background: transparent;
+    color: #fff;
+}
+
+form .form-control:focus{
+    color: #fff;
+    background: transparent;
+}
+
+form input.form-control{
+    height: 54px;
+}
+
+form .form-control::placeholder{
+    color: #fff;
+}
+
+
+.footer-sec{
+    background: linear-gradient(to right,#36d1ec, #0066ff);
+}
+
+footer .contact-info{
+    padding-top: -3px;
+}
+
+footer .footer-icon{
+    font-size: 40px;
+}
+
+.footer-contact-icon{
+    font-size: 20px;
+    letter-spacing: 10px;
+    align-items: center;
+}
+
+footer .subs-input{
+    height: 54px;
+    color: #fff;
+    border: none;
+    border-radius: 30px 0px 0px 30px; 
+    position: relative;
+    padding-left: 20px;
+}
+
+
+
+.subs-button{
+    position: absolute;
+    border: none;
+}
+
+.btn-subs{
+    background: linear-gradient(to right,#0c9ed8, #0026ff);
+    color: #fff;
+    padding: 13px 15px;
+    border-radius: 0px 30px 30px 0px;
+    
+}
+
+
+/*============= Blog CSS ===========*/
+
+.bg-blog{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-head{
+    font-size: 60px;
+}
+
+
+.section-intro-blog .divider-blog{
+    height: 6px;
+    width: 90px;
+    background: linear-gradient(to right,#6736ec, #00d9ff);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.breadcrumb .breadcrumb-item a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.breadcrumb .breadcrumb-item {
+    color: #fff;
+    font-size: 20px;
+}
+
+.card{
+    border: none;
+}
+
+.card-header:first-child {
+    border-radius: 60px 0px 0px 60px;
+}
+
+.card-header{
+    background: linear-gradient(to right,#5418fc, #51ceff, #ffffff);
+    padding: 20px 0px 10px 30px;
+    border-radius: 60px 0px 0px 60px;
+    border-bottom: 0;
+}
+
+.card-body {
+    border: 1px, #0026ff;
+    box-shadow: 2px #212521;
+}
+
+.btn-read{
+    background: linear-gradient(to right,#36d1ec, #0066ff);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    align-items: center;
+}
+
+.content-header{
+    line-height: 40px;
+}
+
+h2{
+    font-weight: 700;
+}
+
+.card-header-content{
+    margin: -5px;
+    border-radius: none;
+}
+
+.breadcrumb-head{
+    align-items: center;
 }
