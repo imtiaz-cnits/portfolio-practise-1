@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 body{
     font-family: Poppins;
     line-height: 1.8;
@@ -32,6 +33,28 @@ img{
     width: 100%;
     border-radius: 5px;
 }
+
+::-webkit-scrollbar{
+    width: 14px;
+}
+
+::-webkit-scrollbar-button {
+    width: 5px;
+    color: #212521;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(165, 165, 165);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(163, 163, 163);
+}
+
 
 /* Header Navbar */
 .navbar-brand{
@@ -374,4 +397,25 @@ h2{
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical; 
     overflow: hidden;
+  }
+
+
+  /*============= Blog Single Page CSS ===========*/
+
+  .navbar-brand-logo {
+      width: 150px;
+      height: 60px;
+  }
+
+  .blog-single-post {
+      padding-left: 50px;
+  }
+
+  .blog-single-post a {
+    margin-top: -20px;
+}
+
+  .blog-single-post li {
+      padding-left: 15px;
+      margin-top: -20px;
   }
