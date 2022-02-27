@@ -34,13 +34,9 @@ img{
     border-radius: 5px;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar{
-    width: 14px;
-}
-
-::-webkit-scrollbar-button {
-    width: 5px;
-    color: #212521;
+    width: 12px;
 }
 
 ::-webkit-scrollbar-track{
@@ -54,6 +50,8 @@ img{
 ::-webkit-scrollbar-thumb:hover{
     background: rgb(163, 163, 163);
 }
+/* Scrollbar */
+
 
 
 /* Header Navbar */
@@ -407,15 +405,105 @@ h2{
       height: 60px;
   }
 
-  .blog-single-post {
-      padding-left: 50px;
-  }
+  /* .blog-single-post {
+      padding: 5rem;
+  } */
 
   .blog-single-post a {
     margin-top: -20px;
 }
 
-  .blog-single-post li {
+  .blog-single-post .author{
       padding-left: 15px;
       margin-top: -20px;
   }
+
+  .divider-post {
+    height: 3px;
+    width: 50px;
+    background: linear-gradient(to right,#36d1ec, #0066ff);
+    border-radius: 10px;
+}
+
+.post-body {
+    margin-top: 35px;
+}
+
+.drop-cap {
+    float: left;
+    line-height: 85%;
+    width: .7em;
+    font-size: 400%;
+    font-family: 'Poppins';
+}
+
+.blockquote {
+    background-color: rgb(245, 245, 245);
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px
+}
+
+
+.blockquote p {
+    font-size: 1rem;
+    font-style: italic;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.quote-img {
+    display: block;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+}
+
+
+/* <!-- Tag Section --> */
+.divider-foot {
+    height: 1px;
+    width: 100%;
+    background: rgb(216, 216, 216);
+    border-radius: 10px;
+}
+
+.after-content {
+    align-items: center;
+}
+
+.social-share {
+    background: rgb(245, 245, 245);
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.share-now {
+    line-height: 1.5rem;
+}
+
+.social-share i {
+    font-size: 1.5rem;
+    padding-bottom: 0;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+/* <!-- Tag Section --> */
+
+/* <!-- Admin Section --> */
+.author-img {
+    height: 120px;
+    width: 120px;
+}
+
+.author-name {
+    display: block;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+/* <!-- Admin Section --> */
