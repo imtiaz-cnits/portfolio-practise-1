@@ -495,6 +495,7 @@ h2{
 }
 /* <!-- Tag Section --> */
 
+
 /* <!-- Admin Section --> */
 .author-img {
     height: 120px;
@@ -507,3 +508,63 @@ h2{
     padding-left: 35px;
 }
 /* <!-- Admin Section --> */
+
+
+/* <!-- Related Post Section --> */
+.your-post-head{
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+/* <!-- Related Post Section --> */
+
+
+/* <!-- Comments Section --> */
+.comment-info .comment-img {
+    height: 140px;
+    width: 140px;
+}
+
+.comment-name {
+    display: block;
+    padding-top: 10px;
+}
+
+.comment-date {
+    font-size: .8rem;
+}
+
+.flex-row-reverse {
+    width: 100%;
+    padding-left: 150px;
+    margin-top: -25px;
+}
+
+.badge a i {
+    font-size: 20px;
+}
+
+.comment-meta {
+    padding-top: 0;
+}
+/* <!-- Comments Section --> */
+
+/* Comment Form */
+form .form-control-cmnt{
+    background: transparent;
+    color: #999;
+}
+
+form .form-control-cmnt:focus{
+    color: #999;
+    background: transparent;
+}
+
+form input.form-control-cmnt{
+    height: 54px;
+}
+
+form .form-control-cmnt::placeholder{
+    color: #999;
+}
+/* Comment Form */
