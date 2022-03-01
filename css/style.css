@@ -34,6 +34,13 @@ img{
     border-radius: 5px;
 }
 
+.divider {
+    height: 3px;
+    width: 50px;
+    background: linear-gradient(to right,#36d1ec, #0066ff);
+    border-radius: 10px;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar{
     width: 12px;
@@ -549,22 +556,86 @@ h2{
 }
 /* <!-- Comments Section --> */
 
-/* Comment Form */
-form .form-control-cmnt{
+/* <!-- form comments Section --> */
+.input-group .form-control {
     background: transparent;
-    color: #999;
+    padding-left: 45px;
 }
 
-form .form-control-cmnt:focus{
-    color: #999;
-    background: transparent;
+.text-box {
+    border-radius: 25px;
+    padding-top: 13px;
 }
 
-form input.form-control-cmnt{
-    height: 54px;
+textarea.form-control {
+    height: 197px;
 }
 
-form .form-control-cmnt::placeholder{
-    color: #999;
+.comment-box {
+    height: 50px;
 }
-/* Comment Form */
+
+.input-group-icon {
+    position: absolute;
+    padding-top: 12px;
+    padding-left: 15px;
+    color: #999;
+    font-size: 1.1rem;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+/* <!-- form comments Section --> */
+
+/* Search Box */
+.search-box {
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.search-box:focus {
+    border: 1px solid #3c9cf0;
+    box-shadow: 0 0 3px #1e87e2;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    padding-top: 10px;
+    margin-left: -30px;
+    font-size: 1.2rem;
+    pointer-events: none;
+}
+/* Search Box */
+
+/* Sidebar Categories */
+.sidebar-category-box ul {
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+
+.sidebar-categories li {
+    list-style: none;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sidebar-categories .badge {
+    padding-top: 9px;
+}
+/* Sidebar Categories */
